@@ -18,3 +18,4 @@ var button = document.getElementById('btn');
 button.onclick = function () {
     alert(greeter.greet());
 };
+//@ sourceMappingURL=Demo1.js.map
