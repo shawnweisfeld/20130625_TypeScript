@@ -2,7 +2,9 @@
 
 
 $(function () {
-    $('btn').click(function () {
+    $('#btn').click(function () {
         alert("hello from jquery");
     });
+
+
 })

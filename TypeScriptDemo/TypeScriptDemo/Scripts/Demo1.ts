@@ -7,13 +7,15 @@ module Sayings {
         }
     }
 }
- 
+
 var greeter = new Sayings.Greeter("module fun!");
 
 var button = document.getElementById('btn');
 button.onclick = function () {
     alert(greeter.greet());
 };
+
+
 
 /*
 --********************************
